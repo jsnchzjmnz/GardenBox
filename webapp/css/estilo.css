@@ -1,0 +1,295 @@
+* {
+margin: 0px;
+padding: 0px;
+width: 100%;
+height: 100%;
+}
+
+
+a{
+	text-decoration:none;
+	color: 	#808080;
+	}
+
+a img {
+	height: 25px;
+	width: 25px;
+}
+
+body
+{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.42857143;
+	width: 100%;
+	height: 100%;
+	background-color:  #00744b;
+	text-align: center;
+}
+
+header, section, footer, aside, nav, article, figure, figcaption,
+hgroup{
+display: block;
+}
+
+header{
+	margin-left: 0px;
+	margin-top: 0px;
+	padding-top: 1em;
+	height: 5%;
+	width: 100%;
+	background-color:  #00744b;
+	border-bottom: 2px solid #999999;
+}
+
+h1
+{
+font: bold 20px Trebuchet MS, sans-serif;
+text-align: left;
+color: #606060 ;
+}
+
+h2 {
+font: bold 14px verdana, sans-serif;
+}
+
+ul {
+	margin-top: 0;
+	margin-left: 0
+	float: right;
+}
+
+li {
+	width: 20em;
+	height: 3em;
+}
+li:hover {
+	background-color: #35537a;
+	width: 20em;
+	height: 3em;
+}
+
+#buscador{
+float: left;
+width: 10%;
+}
+
+#encabezado_centro{
+	padding-top: 0.1em;
+float: left;
+width: 55%;
+}
+#encabezado_centro h3{
+color: #ddd;
+font: bold 14px verdana, sans-serif;
+}
+
+#encabezado_derecha{
+	padding-top: 0.1em;
+	float: left;
+	width: 35%;
+}
+
+#encabezado_derecha a{
+color: #ddd;
+font: bold 14px verdana, sans-serif;
+}
+
+#textbox-busqueda {
+	float: left;
+	background:#FFFFFF url("/../img/lupa.png") no-repeat 4px 4px;
+	padding:4px 4px 4px 22px;
+	border:2px solid #4A70B2;
+	margin-left: 20px;
+	margin-top: 10px;
+	border-radius:10px;
+	width:120px;
+	height:26px;
+}
+#textbox {
+	padding:4px 4px 4px 22px;
+	border:2px solid #4A70B2;
+	margin-left:30px;
+	border-radius:10px;
+	width:250px;
+	height:18px;
+}
+#textbox:hover{
+	border:2px solid #5BA334;
+}
+
+#contenido{
+	background-color: #282828 ;
+	float: left;
+	align-items: center;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	width: 70%;
+	height: 85%;
+}
+#contenido h2{
+		float: right;
+	font: bold 20px Trebuchet MS, sans-serif;
+	text-align: left;
+	color: #35537a ;
+}
+#contenido h3{
+		float: right;
+	font: bold 20px Trebuchet MS, sans-serif;
+	text-align: left;
+	color: red ;
+}
+
+
+#meta{
+	background-color: #red ;
+	padding-left: 3em;
+	float: left;
+	align-items: center;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	width: 65%;
+	height: 100%;
+}
+#meta h2{
+		float: right;
+	font: bold 20px Trebuchet MS, sans-serif;
+	text-align: left;
+	color: #35537a ;
+}
+#meta h3{
+		float: right;
+	font: bold 20px Trebuchet MS, sans-serif;
+	text-align: left;
+	color: red ;
+}
+
+
+
+
+#menu {
+	float: left;
+	background: #4c3628;
+	width: 10%;
+	height: 85%;
+	margin-top: 0px;
+}
+#menu ul.icon{
+		list-style-type: none;
+		padding-top: 2%;
+		height: 90%;
+}
+#menu b{
+	color: black;
+}
+#menu ul.icon li {
+		text-indent: -1.4em;
+		color: #808080 ;
+		width: 100%;
+		height: 12%;
+		padding-top: 15%;
+}
+#menu ul.icon li img {
+		width: 50%;
+		height: 50%;
+}
+
+#menu ul.icon li:hover{
+		text-indent: -1.4em;
+	color:#ddd;
+	background-color: #00744b;
+}
+
+#menu ul.icon a{
+	text-decoration:none;
+	color: 	#808080;
+	}
+#menu ul.icon a:hover{
+color: black;
+}
+#menu ul.icon h2{
+	text-decoration:none;
+	font: bold 20px verdana, sans-serif;
+	color: 	#808080;
+	}
+
+
+
+#pie {
+	height: 5%;
+	clear: both;
+	align-items: center;
+	text-align: center;
+	border-top: 2px solid #999999;
+	background: #00744b;
+}
+#espacio-enblanco {
+height: 250px;
+background-color: #4a70b2;
+}
+article {
+
+background: #E5E5E5;
+border: 1px solid #999999;
+padding: 20px;
+margin-bottom: 15px;
+margin-left: 0px;
+}
+article footer {
+text-align: right;
+}
+time {
+color: #999999;
+}
+
+
+#lista {
+	background-color: #4c3628  ;
+	float: right;
+	align-items: center;
+	width: 20%;
+	height:85%;
+	font:16px/26px Georgia, Garamond, Serif;
+	overflow:auto;
+
+}
+
+
+
+#tabla{
+	border-radius:15px;
+	border-width: medium;
+	margin: 1em;
+	float:left;
+	width: 6em;
+		height: 4em;
+    border: 0px solid #383838;
+    border-collapse: collapse;
+}
+#tabla td{
+		width: 2em;
+		height: 1em;
+    border: 0px solid #383838;
+    border-collapse: collapse;
+}
+
+#tabla th{
+    border: 0px solid #383838;
+    border-collapse: collapse;
+}
+
+#espacio{
+	width: 100%;
+	height: 100%;
+	background-color: #282828 ;
+}
+
+#division{
+	padding: 5%;
+	float: left;
+	width: 40%;
+	height: 15%;
+	font: bold 18px Trebuchet MS, sans-serif;
+	color: #606060 ;
+	text-align: left;
+}
