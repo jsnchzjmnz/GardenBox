@@ -2,6 +2,7 @@
 ![GardenBox](https://raw.githubusercontent.com/jsnchzjmnz/GardenBox/master/logo.png)
 
 GardenBox es una herramienta para facilitar la pruducción de cultivos, mediante el uso de aplicaciones web, y el uso de hardware libre como Raspberry Pi.
+Está pensado para brindar soluciones de forma modular, por lo que se podrán realizar tareas desde monitorear fechas de germinación, abono y corta, hasta automatización de riego. 
 
 ## Documentación
 
