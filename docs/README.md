@@ -1,14 +1,22 @@
-### Welcome to GitHub Pages.
-This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here [using GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/), select a template crafted by a designer, and publish. After your page is generated, you can check out the new `gh-pages` branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.
 
-### Designer Templates
-We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.
+![GardenBox](https://raw.githubusercontent.com/jsnchzjmnz/GardenBox/master/logo.png)
 
-### Creating pages manually
-If you prefer to not use the automatic generator, push a branch named `gh-pages` to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.
+GardenBox es una herramienta para facilitar la pruducción de cultivos, mediante el uso de aplicaciones web, y el uso de hardware libre como Raspberry Pi.
+Está pensado para brindar soluciones de forma modular, por lo que se podrán realizar tareas desde monitorear fechas de germinación, abono y corta, hasta automatización de riego. 
 
-### Authors and Contributors
-You can @mention a GitHub username to generate a link to their profile. The resulting `<a>` element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (@defunkt), PJ Hyett (@pjhyett), and Tom Preston-Werner (@mojombo) founded GitHub.
+Adicionalmente, GardenBox mantiene registros de detalles específicos para cada cultivo, mediante los cuales se realizarán recomendaciones al productor en cuanto a fechas, nutrientes, etc.
 
-### Support or Contact
-Having trouble with Pages? Check out our [documentation](https://help.github.com/pages) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Raspberry Pi y Arduino, son los dispositivos de Hardware considerados en el proceso de automatización en el proyecto. Aún así, la plataforma aspira a ser parametrizable en el sentido de que adaptarlo a cualquier otro dispositivo no requiera mucho trabajo.
+
+## Documentación
+
+GardenBox está en proceso de desarrollo, si desea saber algo más, puede consultar nuestra puede escribir a contacto@jsanchezj.com
+
+
+## Descargas
+
+Este [link](https://github.com/jsnchzjmnz/GardenBox) lo dirigirá a la ubicación en la que podrá descargar la versión actualizada con los ejecutables de GardenBox
+
+## License
+
+GardenBox es Software Libre, y está licenciado bajo [GPLv3](https://github.com/jsnchzjmnz/bliburu/blob/master/LICENSE)
